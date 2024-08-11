@@ -26,3 +26,9 @@
 
 # grep: Buscar texto dentro de archivos .
     Ejemplo:grep "cadena" archivo.txt
+
+# Links de interés:
+
+- https://linuxize.com/post/basic-linux-commands/
+- https://www.dreamhost.com/blog/es/comandos-linux-que-debes-conocer/
+- https://kinsta.com/es/blog/linux-comandos/
