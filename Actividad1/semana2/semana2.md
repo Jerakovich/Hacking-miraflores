@@ -2,7 +2,7 @@
 
 Tomemos esta imagen como ejemplo:
 
-	![ola](./ola.png)
+	![ola](https://github.com/Jerakovich/Hacking-miraflores/blob/avances/Actividad1/semana2/ola.png)
 
 Desglose del Output
 
@@ -35,9 +35,10 @@ Este campo indica el usuario propietario del archivo.
 III) Grupo
 
 Este campo indica el grupo propietario del archivo.
+
 Ejemplo sobre el archivo "semana2.md":
 
-	![archivos](./olita.png)
+	![archivos](https://github.com/Jerakovich/Hacking-miraflores/blob/avances/Actividad1/semana2/olita.png)
 
 	Tipo de archivo: El primer carácter es un -, por lo tanto, es un archivo regular.
 	Permisos del usuario: rwx, el usuario moreno tiene permisos de lectura, escritura y ejecución.
@@ -68,6 +69,7 @@ ls -l | grep ".txt"
 
 Este comando te permite encontrar rápidamente archivos con una extensión específica dentro de un directorio.
 Encadenamiento de Múltiples Comandos
+
 
 Puedes encadenar múltiples comandos con pipes:
 
