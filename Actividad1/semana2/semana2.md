@@ -1,7 +1,3 @@
-# Semana 2
-
-- Esta semana 
-
 # Permisos, Owners y Grupos
 
 Tomemos esta imagen como ejemplo:
@@ -37,6 +33,8 @@ III) Grupo
 
 Este campo indica el grupo propietario del archivo.
 Ejemplo sobre el archivo "semana2.md":
+
+	![arsvhicos](archivos.png)
 
 	Tipo de archivo: El primer carácter es un -, por lo tanto, es un archivo regular.
 	Permisos del usuario: rwx, el usuario moreno tiene permisos de lectura, escritura y ejecución.
@@ -96,15 +94,11 @@ Tipos de Redireccionadores
 
 	>: Sobrescribe el contenido de un archivo con la salida de un comando (es decir, la redirección de stdout). Si el archivo no existe, se crea uno nuevo.
 
-	bash
-
 ls > archivo.txt
 
 Esto guarda la lista de archivos y directorios en archivo.txt. Si archivo.txt ya existía, su contenido se sobrescribirá.
 
 >>: Añade la salida de un comando al final de un archivo existente, sin sobrescribir el contenido anterior.
-
-bash
 
 	echo "Nuevo texto" >> archivo.txt
 
@@ -114,7 +108,6 @@ bash
 
 	<: Toma la entrada de un archivo en lugar del teclado, redirigiendo stdin.
 
-	bash
 
 	cat < archivo.txt
 
@@ -124,7 +117,6 @@ bash
 
 	2>: Redirige los mensajes de error (stderr) a un archivo, sobrescribiéndolo si ya existe.
 
-	bash
 
 ls no_existe 2> errores.txt
 
@@ -132,7 +124,6 @@ Si intentas listar un archivo o directorio que no existe, el mensaje de error se
 
 2>>: Añade los mensajes de error al final de un archivo existente, sin sobrescribir su contenido.
 
-bash
 
 	ls no_existe 2>> errores.txt
 
@@ -140,12 +131,9 @@ bash
 
 	&>: Redirige tanto la salida estándar (stdout) como los mensajes de error (stderr) a un archivo, sobrescribiéndolo.
 
-	bash
 
 comando &> salida.txt
 
 &>>: Añade tanto la salida estándar como los mensajes de error al final de un archivo existente.
-
-bash
 
 comando &>> salida.txt
