@@ -2,8 +2,10 @@
 
 Tomemos esta imagen como ejemplo:
 
-archivos
+	![ola](./ola.png)
+
 Desglose del Output
+
 I) Permisos
 
 Cada símbolo en la cadena de permisos otorga privilegios según su estado y orden. A continuación, se detalla qué significa cada uno:
@@ -29,12 +31,13 @@ Cada símbolo en la cadena de permisos otorga privilegios según su estado y ord
 II) Usuario
 
 Este campo indica el usuario propietario del archivo.
+
 III) Grupo
 
 Este campo indica el grupo propietario del archivo.
 Ejemplo sobre el archivo "semana2.md":
 
-	![arsvhicos](archivos.png)
+	![archivos](./olita.png)
 
 	Tipo de archivo: El primer carácter es un -, por lo tanto, es un archivo regular.
 	Permisos del usuario: rwx, el usuario moreno tiene permisos de lectura, escritura y ejecución.
