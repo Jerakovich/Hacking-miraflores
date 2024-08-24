@@ -1,8 +1,10 @@
 # Permisos, Owners y Grupos
 
+Partiremos definiendo como visualizar los permisos que tiene cada uno de estos tipos de usuarios al listar un archivo.
+
 Tomemos esta imagen como ejemplo:
 
-	![ola](https://raw.githubusercontent.com/Jerakovich/Hacking-miraflores/avances/Actividad1/semana2/ola.png)
+	(Ver el archivo "archivos1.png")
 
 Desglose del Output
 
@@ -38,7 +40,7 @@ Este campo indica el grupo propietario del archivo.
 
 Ejemplo sobre el archivo "semana2.md":
 
-	![archivos](https://raw.githubusercontent.com/Jerakovich/Hacking-miraflores/avances/Actividad1/semana2/olita.png)
+	(Ver el archivo "archivos2.png")
 
 	Tipo de archivo: El primer carácter es un -, por lo tanto, es un archivo regular.
 	Permisos del usuario: rwx, el usuario moreno tiene permisos de lectura, escritura y ejecución.
