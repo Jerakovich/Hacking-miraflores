@@ -45,7 +45,7 @@ Ejemplo sobre el archivo "semana2.md":
 	Tipo de archivo: El primer carácter es un -, por lo tanto, es un archivo regular.
 	Permisos del usuario: rwx, el usuario moreno tiene permisos de lectura, escritura y ejecución.
 	Permisos del grupo: r--, los usuarios del grupo sddm solo pueden leer el archivo.
-	Permisos de otros usuarios: -w-, otros usuarios también pueden leer el archivo.
+	Permisos de otros usuarios: r--, otros usuarios también pueden leer el archivo.
 
 # Pipes (|) en la Terminal
 
