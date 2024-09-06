@@ -1,0 +1,4 @@
+Bash es un lenguaje de comandos muy poderoso. 
+Bash permite automatizar tareas repetitivas.
+Las herramientas como sort, uniq, tr y strings son útiles en Bash.
+El uso de scripts en Bash mejora la productividad.
