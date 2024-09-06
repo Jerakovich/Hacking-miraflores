@@ -1,0 +1,13 @@
+1. Script de Filtrado y Conteo de Palabras Únicas en un Archivo de Texto:
+
+Escribe un script llamado contar_palabras.sh que realice las siguientes operaciones sobre un archivo de texto proporcionado como argumento:
+
+    Convierte todas las letras a minúsculas.
+    Filtra los caracteres que no sean letras ni espacios.
+    Extrae todas las palabras.
+    Ordena las palabras.
+    Elimina duplicados y muestra la cantidad de veces que cada palabra aparece.
+
+2. Script para Extraer y Ordenar Cadenas de un Archivo Binario:
+
+Escribe un script llamado extraer_cadenas.sh que tome un archivo binario como argumento, extraiga todas las cadenas legibles, las ordene alfabéticamente y elimine las duplicadas.
